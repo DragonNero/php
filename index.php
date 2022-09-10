@@ -8,14 +8,15 @@
 
   <?php
 
-$age = [23,16,19,87];
-echo $age[0];
+if (3 > 10){
+  echo "three is less than ten";
+} elseif(4 < 5) {
+  echo "of course this is true";
+}
 
-echo "<br>";
-
-$ageAssociative = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
-
-echo $ageAssociative["Peter"];
+else {
+  echo "it is not";
+}
 
    ?>
 
