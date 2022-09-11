@@ -8,14 +8,10 @@
 
   <?php
 
-if (3 > 10){
-  echo "three is less than ten";
-} elseif(4 < 5) {
-  echo "of course this is true";
-}
-
-else {
-  echo "it is not";
+$counter = 0;
+while($counter <= 10){
+  echo "hello \n";
+  $counter++;
 }
 
    ?>
