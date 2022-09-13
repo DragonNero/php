@@ -7,11 +7,13 @@
 <body>
 
   <?php
-function students($message) {
-  echo($message);
+function cat($speech, $calculation) {
+  echo $speech . "<br>";
+  echo $calculation*2;
 }
 
-students("Stupid");
+cat("I'm really stupid",6);
+
    ?>
 
 </body>
