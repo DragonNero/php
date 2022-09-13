@@ -7,11 +7,11 @@
 <body>
 
   <?php
-function students() {
-  echo("Hello students");
+function students($message) {
+  echo($message);
 }
 
-
+students("Stupid");
    ?>
 
 </body>
