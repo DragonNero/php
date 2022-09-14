@@ -7,12 +7,12 @@
 <body>
 
   <?php
-function cat($speech, $calculation) {
-  echo $speech . "<br>";
-  echo $calculation*2;
+function cat($number1, $number2) {
+  $sum = $number1 + $number2;
+  return $sum;
 }
 
-cat("I'm really stupid",6);
+echo $result = cat(9,6);
 
    ?>
 
