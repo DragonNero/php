@@ -7,14 +7,18 @@
 <body>
 
   <?php
-function cat($number1, $number2) {
-  $sum = $number1 + $number2;
-  return $sum;
+  $x = "outside";
+
+function convert() {
+  global $x;
+  $x = "inside";
 }
 
-$result = cat(9,6);
 
-echo $result = cat(100,$result);
+echo $x;
+echo "<br>";
+convert();
+echo $x;
 
    ?>
 
