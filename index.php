@@ -7,39 +7,17 @@
 <body>
 
   <?php
-  // Works as of PHP 5.3.0
-
-  const CONSTANT = 'Hello World';
-
-
-  echo CONSTANT;
-
-
-  // Works as of PHP 5.6.0
-
-  const ANOTHER_CONST = CONSTANT.'; Goodbye World';
-
-  echo ANOTHER_CONST;
-
-
-  const ANIMALS = array('dog', 'cat', 'bird');
-
-  echo ANIMALS[1]; // outputs "cat"
-
-
-  // Works as of PHP 7
-
-  define('ANIMALS', array(
-
-  'dog',
-
-  'cat',
-
-  'bird'
-
-  ));
-
-  echo ANIMALS[1]; // outputs "cat"
+echo rand(1,1000);
+echo "<br>";
+echo pow(2, 3);
+echo "<br>";
+echo sqrt(39);
+echo "<br>";
+echo ceil(34.5);
+echo "<br>";
+echo floor(34.5);
+echo "<br>";
+echo round(34.5);
 
    ?>
 
