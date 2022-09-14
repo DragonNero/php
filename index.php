@@ -12,7 +12,9 @@ function cat($number1, $number2) {
   return $sum;
 }
 
-echo $result = cat(9,6);
+$result = cat(9,6);
+
+echo $result = cat(100,$result);
 
    ?>
 
