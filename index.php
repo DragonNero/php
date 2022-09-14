@@ -7,18 +7,39 @@
 <body>
 
   <?php
-  $x = "outside";
+  // Works as of PHP 5.3.0
 
-function convert() {
-  global $x;
-  $x = "inside";
-}
+  const CONSTANT = 'Hello World';
 
 
-echo $x;
-echo "<br>";
-convert();
-echo $x;
+  echo CONSTANT;
+
+
+  // Works as of PHP 5.6.0
+
+  const ANOTHER_CONST = CONSTANT.'; Goodbye World';
+
+  echo ANOTHER_CONST;
+
+
+  const ANIMALS = array('dog', 'cat', 'bird');
+
+  echo ANIMALS[1]; // outputs "cat"
+
+
+  // Works as of PHP 7
+
+  define('ANIMALS', array(
+
+  'dog',
+
+  'cat',
+
+  'bird'
+
+  ));
+
+  echo ANIMALS[1]; // outputs "cat"
 
    ?>
 
