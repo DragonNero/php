@@ -7,18 +7,12 @@
 <body>
 
   <?php
-echo rand(1,1000);
+$list = [342,24,56,789,86,957];
+echo max($list);
 echo "<br>";
-echo pow(2, 3);
-echo "<br>";
-echo sqrt(39);
-echo "<br>";
-echo ceil(34.5);
-echo "<br>";
-echo floor(34.5);
-echo "<br>";
-echo round(34.5);
+sort($list);
 
+print_r($list);
    ?>
 
 </body>
