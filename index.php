@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
+<!DOCTYPE HTML>
+<html>
 <body>
 
-  <?php
-$list = [342,24,56,789,86,957];
-echo max($list);
-echo "<br>";
-sort($list);
-
-print_r($list);
-   ?>
+<form action="index.php" method="get">
+Name: <input type="text" name="name" placeholder="Enter username"><br>
+E-mail: <input type="text" name="email" placeholder="Enter email"><br>
+<input type="submit">
+</form>
 
 </body>
 </html>
